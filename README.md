@@ -16,46 +16,61 @@
 Установка
 Клонировать репозиторий:
 
-bash
-git clone https://github.com/yourusername/chemical-book-game.git
-cd chemical-book-game
+git clone https://github.com/PavelVNazarov/chemical_book.git
+cd chemical_book
 Установить зависимости:
 
-bash
 pip install -r requirements.txt
 Запустить приложение:
 
-bash
 python main.py
 Структура проекта
 chemical-book-game/
+
 ├── books/               # JSON-файлы сценариев
+
 ├── images/              # Изображения для интерфейса и сценариев
+
 ├── saves/               # Автосохранения игрового прогреста
+
 ├── main.py              # Основной код приложения
+
 └── README.md            # Документация
+
 Формат JSON-сценариев
 Пример файла books/factory.json:
 
-json
 {
   "metadata": {
+  
     "title": "Заводской реактор",
+    
     "description": "Управление температурой в реакторе",
+    
     "image": "factory.png"
+    
   },
+  
   "paragraphs": [
+  
     {
       "number": 1,
+      
       "text": "Вы стоите перед панелью управления...",
+      
       "options": [
+      
         {"text": "Увеличить температуру", "target": 2},
+        
         {"text": "Проверить датчики", "target": 3}
+        
       ],
+      
       "image_path": "reactor_panel.png"
     }
   ]
 }
+
 Особенности реализации
 Кэширование данных
 Сценарии загружаются один раз при старте приложения.
