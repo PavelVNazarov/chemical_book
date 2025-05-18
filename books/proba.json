@@ -1,0 +1,24 @@
+{
+    "metadata": {
+        "title": "Основы химических реакций",
+        "description": "Учебник по базовым химическим процессам",
+        "image": "welcome_screen.png"
+    },
+    "paragraphs": [
+        {
+            "number": 1,
+            "text": "Вы стоите перед лабораторной установкой...",
+            "image_path": "goodbye_screen.png",
+            "options": [
+                {
+                    "text": "Начать нагревание",
+                    "target": 2
+                },
+                {
+                    "text": "Добавить катализатор",
+                    "target": 3
+                }
+            ]
+        }
+    ]
+}

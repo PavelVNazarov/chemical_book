@@ -1,0 +1,18 @@
+офлайн десктопная программа управление химической реакцией на заводской установке
+
+chemical_book/
+├── books/
+│   ├── paragraph.json
+│   └── ... (другие JSON-файлы книг)
+├── saves/
+│   └── (папка для сохранений)
+├── images/ (изображения)
+│   ├── welcome_screen.png
+│   ├── main_logo.png
+│   ├── goodbye_screen.png
+│   ├── logo.png
+│   ├── factory.png
+│   ├── sensors.png
+│   └── regulators.png
+└── main.py
+
